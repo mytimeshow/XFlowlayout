@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlowLayout">
+
+        <attr name="orientation" >
+            <enum name="vertical" value="1"/>
+            <enum name="horizontal" value="0"/>
+        </attr>
+
+        <attr name="itemInternal_horizontal" format="integer"/>
+
+        <attr name="itemInternal_vertical" format="integer"/>
+
+        <attr name="item_radius" format="float"/>
+
+        <attr name="singgle_select" format="boolean"/>
+
+        <attr name="moreselect_select" format="boolean"/>
+
+        <attr name="max_select" format="integer"/>
+
+        <attr name="text_size" format="integer"/>
+
+        <attr name="default_textColor" format="color"/>
+
+        <attr name="item_content_internal" format="integer"/>
+
+        <attr name="selected_textColor" format="color"/>
+
+        <attr name="item_default_backGroundDrawable" format="color"/>
+
+        <attr name="item_select_backGroundDrawable" format="color"/>
+
+        <attr name="stoke_width" format="integer"/>
+
+        <attr name="default_stoke_color" format="color"/>
+
+        <attr name="selected_stoke_color" format="color"/>
+    </declare-styleable>
+
+
+
+</resources>
