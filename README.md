@@ -1,6 +1,9 @@
 # XFlowlayout
 在开始之前，先来看下效果图吧
 
+排版好像有问题，觉得难看的可以去博客上看    https://blog.csdn.net/qq_mytime/article/details/89158539
+
+
 ![image](https://github.com/mytimeshow/XFlowlayout/blob/master/images/dd.gif)
 ![image](https://github.com/mytimeshow/XFlowlayout/blob/master/images/qq.gif)
 调用
