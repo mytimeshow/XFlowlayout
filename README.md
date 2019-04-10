@@ -3,6 +3,7 @@
 
 排版好像有问题，觉得难看的可以去博客上看    https://blog.csdn.net/qq_mytime/article/details/89158539
 
+其实开始使用kotlin来写的，但是最后发布到jcenter的时候，说是不支持的包名名称，所以不得已改为了java
 
 ![image](https://github.com/mytimeshow/XFlowlayout/blob/master/images/dd.gif)
 ![image](https://github.com/mytimeshow/XFlowlayout/blob/master/images/qq.gif)
