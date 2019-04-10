@@ -14,10 +14,16 @@ implementation’com.mytimeshow:xflowlayout:1.1.1’
 
   flowlayout
                 .setRadiuSize(radiu.toFloat())
+                
                 .setItemSelectedBackGroundColor(s_bc_c)
+                
                 .setItemDefaultBackGroundColor(dd_bc_c)
+                
                 .setDefaultStokeColor(d_sto_c)
+                
+                
                 .setSelectedStokeColor(s_sto_c)
+                
                 .setTextSize(tests.toFloat())
                 .setDefaultTextColor(d_text_c)
                 .setSelectTextColor(s_text_c)
