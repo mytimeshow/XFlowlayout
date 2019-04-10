@@ -5,6 +5,9 @@
 
 其实开始使用kotlin来写的，但是最后发布到jcenter的时候，说是不支持的包名名称，所以不得已改为了java
 
+
+注意       flowlayout.settexts()必须要最后调用哦，否则设置的属性就没有效果了
+
 ![image](https://github.com/mytimeshow/XFlowlayout/blob/master/images/dd.gif)
 ![image](https://github.com/mytimeshow/XFlowlayout/blob/master/images/qq.gif)
 调用
