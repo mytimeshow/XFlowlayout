@@ -10,36 +10,36 @@
 implementation’com.mytimeshow:xflowlayout:1.1.1’
 
   flowlayout
-            .setRadiuSize(radiu.toFloat())
-            .setItemSelectedBackGroundColor(s_bc_c)
-            .setItemDefaultBackGroundColor(dd_bc_c)
-            .setDefaultStokeColor(d_sto_c)
-            .setSelectedStokeColor(s_sto_c)
-            .setTextSize(tests.toFloat())
-            .setDefaultTextColor(d_text_c)
-            .setSelectTextColor(s_text_c)
-            .setStokeSize(d_sto_s)
-            .setItemRandowColor(r)
-            .setIsSingleSlect(s)
-            .setMaxSelect(max_)
-            .setIsMoreSelected(m)
-            .setItemInternalHorizontal(space_h)
-            .setOrirntation(if(l)Flowlayout.HORIZONTAL else Flowlayout.VERTICAL)
-            .setItemInternalVertical(space_v)
-            .setItemContentPadding(contentp)
-            .setAllDefault(d)
-            .setOnItemClickListener(object: ItemOnclickListener {
-                override fun onClick(text: String, textView: TextView) {
-                    flowlayout.getMoreSelectedText()?.forEach { t: String? ->Log.e("flowlayout",t)  }
+                .setRadiuSize(radiu.toFloat())
+                .setItemSelectedBackGroundColor(s_bc_c)
+                .setItemDefaultBackGroundColor(dd_bc_c)
+                .setDefaultStokeColor(d_sto_c)
+                .setSelectedStokeColor(s_sto_c)
+                .setTextSize(tests.toFloat())
+                .setDefaultTextColor(d_text_c)
+                .setSelectTextColor(s_text_c)
+                .setStokeSize(d_sto_s)
+                .setItemRandowColor(r)
+                .setIsSingleSlect(s)
+                .setMaxSelect(max_)
+                .setIsMoreSelected(m)
+                .setItemInternalHorizontal(space_h)
+                .setOrirntation(if(l)Flowlayout.HORIZONTAL else Flowlayout.VERTICAL)
+                .setItemInternalVertical(space_v)
+                .setItemContentPadding(contentp)
+                .setAllDefault(d)
+                .setOnItemClickListener(object: ItemOnclickListener {
+                    override fun onClick(text: String, textView: TextView) {
+                        flowlayout.getMoreSelectedText()?.forEach { t: String? ->Log.e("flowlayout",t)  }
 
-                }
-            })
-             .setOnItemLongPressListener(object: ItemLongpressListener {
-                override fun onLongClick(var1: String, var2: TextView) {
-                   
-                }
-            })
-            .setTexts(texts)
+                    }
+                })
+                 .setOnItemLongPressListener(object: ItemLongpressListener {
+                    override fun onLongClick(var1: String, var2: TextView) {
+
+                    }
+                })
+                .setTexts(texts)
 
 
 
