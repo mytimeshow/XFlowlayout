@@ -1,7 +1,7 @@
 # XFlowlayout
 在开始之前，先来看下效果图吧
 
-
+![image](https://github.com/mytimeshow/XFlowlayout/blob/master/images/dd.gif)
 
 调用
 
