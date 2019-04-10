@@ -40,10 +40,15 @@ repositories {
 
 publish {
     userOrg = 'mytimeshow'//bintray.com用户名
-    groupId = 'com.alan'//jcenter上的路径
-    artifactId = 'XFlowlayout'//项目名称
-    publishVersion = '1.0.0'//版本号
-    desc = 'Oh hi, this is a nice description for a project, right?'//描述，不重要
-    website = 'https://github.com/hyman/basetools'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
+    groupId = 'com.mytimeshow'//jcenter上的路径
+    artifactId = 'xflowlayout'//项目名称
+    publishVersion = '1.1.1'//版本号
+    desc = 'Oh hi, this is a nice flowlayout'
+    website = 'https://github.com/mytimeshow/XFlowlayout.git'
 }
 
+//  解决build警告：编码GBK的不可映射字符
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+
+}

@@ -1,4 +1,4 @@
-package com.example.xflowlayout;
+package com.alan.xflowlayout;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.xflowlayout;
+package com.alan.xflowlayout;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
