@@ -11,7 +11,29 @@
 首先导入下依赖
 
 implementation’com.mytimeshow:xflowlayout:1.1.1’
+  
+  
+    var s=false
+    var m=false
+    var l=true
+    var r=false
+    var d=false
 
+    var tests=15
+    var d_sto_s=1
+    var radiu=8
+    var space_h=15
+    var space_v=15
+    var contentp=15
+    var max_=3
+
+    var d_text_c=Color.GREEN
+    var s_text_c=Color.RED
+    var dd_bc_c=Color.YELLOW
+    var s_bc_c=Color.parseColor("#FF3333")
+    var d_sto_c=Color.BLUE
+    var s_sto_c=Color.RED
+  
   flowlayout
                 .setRadiuSize(radiu.toFloat())
                 
@@ -20,8 +42,7 @@ implementation’com.mytimeshow:xflowlayout:1.1.1’
                 .setItemDefaultBackGroundColor(dd_bc_c)
                 
                 .setDefaultStokeColor(d_sto_c)
-                
-                
+                            
                 .setSelectedStokeColor(s_sto_c)
                 
                 .setTextSize(tests.toFloat())
@@ -58,6 +79,8 @@ implementation’com.mytimeshow:xflowlayout:1.1.1’
  flowlayout.delete(3);
  flowlayout.delete(textView);
 
+
+
 设置选中
 
  flowlayout.setSelected(new String[]{"我们","我爱你","哈哈哈"});
@@ -88,6 +111,7 @@ implementation’com.mytimeshow:xflowlayout:1.1.1’
 
 
 在写这个控件之前，其实我是有这方面的需求的，首先是项目中有用到历史搜索的功能，因此，作为讲究“效率”的程序员，想到的就是马上百度一波，看看有没有合适的，拿来就用。不过很可惜，我并没有找到合适项目ui要求的，因为我的项目中，不仅仅是普通的自动换行的流式布局控件，还要可以自行设置textview的圆角值，默认与选中时的文字颜色或背景颜色，还最特别的一点是，一般的flowlayout只支持横向的布局，我的项目中有些地方还要用到竖向的布局，所以，我就打算撸一个flowlayoutba吧，为了区别于其他的flowlayout，我特意起在前面加了一个X，叫XFlowlayout
+
 
 当然啦，作为追求美观的程序员，肯定是支持在布局文件中配置这些个参数的，不喜欢在代码中设置的可以在布局文件中去配置一些参数，下面列出自定义属性吧
 
@@ -138,8 +162,11 @@ implementation’com.mytimeshow:xflowlayout:1.1.1’
 大部分都是望文生义的属性，我就不专门写注释了
 下面就简单来讲解下代码吧
 
+
   public static final int  HORIZONTAL = 10010;
+  
     public static final int VERTICAL = 10011;
+    
     protected int itemInternal_horizontal;  									//水平方向的间隙
     protected int itemInternal_vertical;											//垂直方向的间隙
     protected int itemContentPadding;											//内间距  相当于padding
